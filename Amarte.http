@@ -1,0 +1,6 @@
+@Amarte_HostAddress = http://localhost:5005
+
+GET {{Amarte_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
