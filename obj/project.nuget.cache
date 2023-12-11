@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mA3szEN1URIyLCNJNk8z33uFEzAuP3gdwbMwVKDk+TMtIb6rXIIVckVBU03xyz9/hXq5t3haYAUTrjaDJchTnA==",
+  "dgSpecHash": "J+MEMjCcujjoBEkqY9Dv1wVi3G+WtwZjOmX8iq/s5e5lOv5qwnGOZNBRft/UMHxFz7UbnMa4VpX2QUCu/D3Kkg==",
   "success": true,
   "projectFilePath": "A:\\VS2022\\Amarte\\Amarte.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
