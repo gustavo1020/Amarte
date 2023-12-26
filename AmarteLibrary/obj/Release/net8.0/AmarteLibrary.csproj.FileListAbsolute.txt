@@ -1,0 +1,5 @@
+A:\VS2022\Amarte\AmarteLibrary\obj\Release\net8.0\AmarteLibrary.csproj.AssemblyReference.cache
+A:\VS2022\Amarte\AmarteLibrary\obj\Release\net8.0\AmarteLibrary.GeneratedMSBuildEditorConfig.editorconfig
+A:\VS2022\Amarte\AmarteLibrary\obj\Release\net8.0\AmarteLibrary.AssemblyInfoInputs.cache
+A:\VS2022\Amarte\AmarteLibrary\obj\Release\net8.0\AmarteLibrary.AssemblyInfo.cs
+A:\VS2022\Amarte\AmarteLibrary\obj\Release\net8.0\AmarteLibrary.csproj.CoreCompileInputs.cache

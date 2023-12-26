@@ -1,0 +1,52 @@
+﻿@using AmarteLibrary.Models
+@page "/fetchdata"
+@using RestSharp
+@inject RestClient _restClient
+@using Newtonsoft.Json
+
+<div class="row">
+    <div class="col-md-4 mb-3">
+        <input class="form-control" placeholder="Email" @bind="model.Email" />
+    </div>
+    <div class="col-md-4 mb-3">
+        <input class="form-control" placeholder="Password" @bind="model.Password" />
+    </div>
+    <div class="col-md-4 mb-3">
+        <button class="btn btn-primary" @onclick="BTNLogin">Login</button>
+    </div>
+</div>
+
+
+@code {
+
+    private Register model = new();
+
+    private async Task BTNLogin()
+    {
+        var request = new RestRequest("https://localhost:7147/Account/login", Method.Post);
+
+        request.AddHeader("Content-Type", "application/json");
+
+        request.AddQueryParameter("useCookies", "true");
+        request.AddQueryParameter("useSessionCookies", "false");
+
+        request.AddBody(model);
+
+        var response = await _restClient.ExecutePostAsync(request);
+
+        if (response.IsSuccessful)
+        {
+            Console.WriteLine("Registro exitoso");
+        }
+        else
+        {
+            var errorModel = Newtonsoft.Json.JsonConvert.DeserializeObject<ErrorModel>(response.Content);
+
+            string errorMessages = errorModel.Errors.SelectMany(error => error.Value, (error, errorMessage) =>
+                   $"Campo: {error.Key}, Mensaje: {errorMessage}")
+                   .Aggregate((current, next) => $"{current}\n{next}");
+
+            Console.WriteLine(errorMessages);
+        }
+    }
+}

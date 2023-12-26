@@ -1,0 +1,1 @@
+G:\Novit\Amarte\AmarteAppClient\AmarteAppClient.csproj;x64

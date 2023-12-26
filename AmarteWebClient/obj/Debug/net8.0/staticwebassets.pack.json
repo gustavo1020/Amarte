@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\obj\\Debug\\net8.0\\compressed\\siwe4avifl.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AmarteWebClient.styles.css",
+      "PackagePath": "staticwebassets\\AmarteWebClient.styles.css"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteWebClient\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AmarteWebClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AmarteWebClient.props",
+      "PackagePath": "build\\AmarteWebClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AmarteWebClient.props",
+      "PackagePath": "buildMultiTargeting\\AmarteWebClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AmarteWebClient.props",
+      "PackagePath": "buildTransitive\\AmarteWebClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

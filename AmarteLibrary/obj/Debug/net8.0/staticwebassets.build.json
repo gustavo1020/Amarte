@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "M7lSXgL8QkmMj313nshxo3SVJTH+wtLR0aLwLni+RhA=",
+  "Source": "AmarteLibrary",
+  "BasePath": "_content/AmarteLibrary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AmarteLibrary\\wwwroot",
+      "Source": "AmarteLibrary",
+      "ContentRoot": "G:\\Novit\\Amarte\\AmarteLibrary\\wwwroot\\",
+      "BasePath": "_content/AmarteLibrary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\Novit\\Amarte\\AmarteLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AmarteLibrary.styles.css",
+      "SourceId": "AmarteLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\Novit\\Amarte\\AmarteLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/AmarteLibrary",
+      "RelativePath": "AmarteLibrary.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\Novit\\Amarte\\AmarteLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AmarteLibrary.styles.css"
+    },
+    {
+      "Identity": "G:\\Novit\\Amarte\\AmarteLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AmarteLibrary.bundle.scp.css",
+      "SourceId": "AmarteLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\Novit\\Amarte\\AmarteLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/AmarteLibrary",
+      "RelativePath": "AmarteLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\Novit\\Amarte\\AmarteLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AmarteLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\Novit\\Amarte\\AmarteLibrary\\wwwroot\\background.png",
+      "SourceId": "AmarteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Novit\\Amarte\\AmarteLibrary\\wwwroot\\",
+      "BasePath": "_content/AmarteLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteAppClient\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\AmarteAppClient.styles.css",
+      "PackagePath": "staticwebassets\\AmarteAppClient.styles.css"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteAppClient\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteAppClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteAppClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteAppClient\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "G:\\Novit\\Amarte\\AmarteAppClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.AmarteAppClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.build.AmarteAppClient.props",
+      "PackagePath": "build\\AmarteAppClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildMultiTargeting.AmarteAppClient.props",
+      "PackagePath": "buildMultiTargeting\\AmarteAppClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildTransitive.AmarteAppClient.props",
+      "PackagePath": "buildTransitive\\AmarteAppClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
