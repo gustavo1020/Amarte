@@ -1,8 +1,9 @@
-﻿@using AmarteLibrary.Models
-@page "/fetchdata"
-@using RestSharp
-@inject RestClient _restClient
-@using Newtonsoft.Json
+﻿@using AmarteLibrary.Models;
+@page "/fetchdata";
+@using RestSharp;
+@inject RestClient _restClient;
+@using Newtonsoft.Json;
+@inject SweetAlertService Swal;
 
 <div class="row">
     <div class="col-md-4 mb-3">
@@ -15,7 +16,6 @@
         <button class="btn btn-primary" @onclick="BTNLogin">Login</button>
     </div>
 </div>
-
 
 @code {
 
@@ -36,17 +36,26 @@
 
         if (response.IsSuccessful)
         {
-            Console.WriteLine("Registro exitoso");
+            await Modal("Bienvenido", false);
         }
         else
         {
-            var errorModel = Newtonsoft.Json.JsonConvert.DeserializeObject<ErrorModel>(response.Content);
 
-            string errorMessages = errorModel.Errors.SelectMany(error => error.Value, (error, errorMessage) =>
-                   $"Campo: {error.Key}, Mensaje: {errorMessage}")
-                   .Aggregate((current, next) => $"{current}\n{next}");
-
-            Console.WriteLine(errorMessages);
+            await Modal("Contraseña o Usuario incorrecto", true);
+            
         }
+    }
+
+    public async Task Modal(string message, bool alertIcon)
+    {
+        SweetAlertResult result = await Swal.FireAsync(new SweetAlertOptions
+            {
+                Position = "top-end",
+                Title = alertIcon == true ? "Error 401 No Autorizado" : "Information",
+                Text = message,
+                Icon = alertIcon == true ? SweetAlertIcon.Error : SweetAlertIcon.Success,
+                ShowConfirmButton = false,
+                Timer = 1100
+            });
     }
 }

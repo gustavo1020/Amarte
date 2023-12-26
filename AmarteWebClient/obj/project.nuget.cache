@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u8DffFfVvyxs2AdZdstuMQTZR6klRyUe4fW9vnvn2NE5fM0/ddOOij3FUs4dwQzQhylZ3KkAZ1JdXTRvNJUgcQ==",
+  "dgSpecHash": "IFzeMYteqmQ8FQ+IKL2rHlVCYmh1pQkV+TFHXDkuPm16wYp1H1K5Szrxyfp2vkqWoDy4LxbmoNRf1rKQzViOZQ==",
   "success": true,
   "projectFilePath": "G:\\Novit\\Amarte\\AmarteWebClient\\AmarteWebClient.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gustavo\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.5.0\\currietechnologies.razor.sweetalert2.5.5.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",

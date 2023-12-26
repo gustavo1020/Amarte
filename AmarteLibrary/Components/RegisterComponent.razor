@@ -1,7 +1,8 @@
-﻿@using AmarteLibrary.Models
-@page "/fetchdata"
-@using RestSharp
-@inject RestClient _restClient
+﻿@using AmarteLibrary.Models;
+@page "/fetchdata";
+@using RestSharp;
+@inject RestClient _restClient;
+@inject SweetAlertService Swal;
 
 <div class="row">
     <div class="col-md-4 mb-3">
@@ -30,17 +31,29 @@
 
         if(response.IsSuccessful)
         {
-            Console.WriteLine("Registro exitoso");
+            await Modal("Registro exitoso", false);
         }
         else
         {
             var errorModel = Newtonsoft.Json.JsonConvert.DeserializeObject<ErrorModel>(response.Content);
 
-            string errorMessages = errorModel.Errors.SelectMany(error => error.Value, (error, errorMessage) =>
-                   $"Campo: {error.Key}, Mensaje: {errorMessage}")
-                   .Aggregate((current, next) => $"{current}\n{next}");
+            string errorMessages = "Error (" + errorModel.Errors.SelectMany(error => error.Value, (error, errorMessage) =>
+                   $"{errorMessage}")
+                  .Aggregate((current, next) => $"{current}\n{next}") + ")";
 
-            Console.WriteLine(errorMessages);
+            await Modal(errorMessages, true);
+
         }
+    }
+
+    public async Task Modal(string message, bool alertIcon)
+    {
+        SweetAlertResult result = await Swal.FireAsync(new SweetAlertOptions
+        {
+             Title = alertIcon == true ? "Error" : "Information",
+             Text = message,
+             Icon = alertIcon == true ? SweetAlertIcon.Error : SweetAlertIcon.Success,
+             ConfirmButtonText = alertIcon == true ? "Intentelo de nuevo" : "Confirmar",
+        });
     }
 }
