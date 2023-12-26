@@ -617,7 +617,6 @@ G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin
 G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\staticwebassets.build.json
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\staticwebassets.development.json
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\staticwebassets\msbuild.AmarteAppClient.Microsoft.AspNetCore.StaticWebAssets.props
@@ -682,3 +681,9 @@ G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\refint\Ama
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\AmarteAppClient.pdb
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\AmarteAppClient.genruntimeconfig.cache
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-ios\iossimulator-x64\ref\AmarteAppClient.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\AmarteLibrary.staticwebassets.runtime.json
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\CurrieTechnologies.Razor.SweetAlert2.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\Newtonsoft.Json.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\RestSharp.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\AmarteLibrary.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-ios\iossimulator-x64\AmarteLibrary.pdb

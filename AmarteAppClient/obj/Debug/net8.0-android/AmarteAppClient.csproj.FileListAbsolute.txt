@@ -2203,3 +2203,12 @@ G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\stamp\_ConvertResources
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-android\AmarteLibrary.staticwebassets.runtime.json
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-android\AmarteLibrary.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-android\AmarteLibrary.pdb
+G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\AmarteAppClient.csproj.CopyComplete
+G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\android\assets\AmarteLibrary.dll
+G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\android\assets\AmarteLibrary.pdb
+G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\android\assets\CurrieTechnologies.Razor.SweetAlert2.dll
+G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
+G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-android\android\assets\RestSharp.dll

@@ -409,3 +409,9 @@ G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\q
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 G:\Novit\Amarte\AmarteAppClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AmarteLibrary.staticwebassets.runtime.json
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CurrieTechnologies.Razor.SweetAlert2.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RestSharp.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AmarteLibrary.dll
+G:\Novit\Amarte\AmarteAppClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AmarteLibrary.pdb

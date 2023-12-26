@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmarteWebClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fce48e51b33a73898cca884cd6c1634fca5c2f1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmarteWebClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmarteWebClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CurrieTechnologies.Razor.SweetAlert2;
+using Microsoft.Extensions.Logging;
+using RestSharp;
 
 namespace AmarteAppClient
 {
@@ -15,9 +17,10 @@ namespace AmarteAppClient
                 });
 
             builder.Services.AddMauiBlazorWebView();
-
+            builder.Services.AddSweetAlert2();
+            builder.Services.AddSingleton(new RestClient(new HttpClient()));
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
 
